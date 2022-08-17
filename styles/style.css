@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/*Header*/
+.header {
+    padding-top: 46px;
+    background-color: #F1F1F1;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 76px;
+}
+
+/*nav */
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-list a {
+    color: #000000;
+    transition: color 0.2s ease-in
+}
+
+.nav-list li a.active {
+    color: #606060;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-heading {
+    font-weight: 600;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header-content p {
+    font-size: 14px;
+    line-height: 2;
+}
+
+/*services*/
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card {
+
+}
+
+.service-card-img {
+    margin-bottom: 30px;
+}
+
+.service-card-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.service-card p {
+    line-height: 2;
+}
+
+/*portfolio*/
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: #000000;
+    text-decoration: underline !important;
+}
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 18px;
+    transition: all 500ms ease;
+}
+
+.btn-1:hover {
+    color: #FFF88E !important;
+}
+
+
+.project-title a:hover, li a:hover {
+    color: #4F4F4F;
+}
+
+.btn-1:active {
+    background-color: #000000;
+    position: relative;
+    top: 1px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contacts-social a {
+    transition-duration: .4s;
+}
+
+
+.contacts-social a:hover {
+    transform: translateY(-7px);
+
+}
+
+.contacts-social a .gitHub {
+    max-width: 45px;
+}
+
+.contacts-social a .upwork {
+    width: 40px;
+}
+
+.contact-footer {
+    color: #828282;
+}
+
+
+
+
