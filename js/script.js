@@ -1,4 +1,11 @@
-var link = document.createElement('a');
-link.href = url('../assets/front.pdf');
-link.download = 'file.pdf';
-link.dispatchEvent(new MouseEvent('click'));
+const nav = document.querySelector('#nav');
+const navBtn = document.querySelector('#nav-btn');
+const navBtnImg = document.querySelector('#nav-btn-img');
+
+navBtn.onclick = () => {
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = './assets/nav-close.svg';
+    }else {
+        navBtnImg.src = './assets/nav.svg';
+    }
+}
