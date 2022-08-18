@@ -14,14 +14,16 @@
     <link rel="stylesheet" href="styles/null.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
 <header class="header">
     <div class="container">
       <div class="header-nav">
+
           <a href="" class="logo">
-              <img src="assets/logo/460Gif.gif" alt="">
+              <img class="header-logo" src="assets/logo/460Gif.gif" alt="">
           </a>
 
           <nav id="nav" class="nav">
@@ -41,9 +43,9 @@
       </div>
 
       <div class="header-row">
-          <div class="header-content">
+          <div data-aos="fade-up" class="header-content">
 
-              <div class="header-heading">Zheynov Stas<br>Front-end developer</div>
+              <div class="header-heading">Zheynov Stas<br><span>Front-end developer</span></div>
 
               <p>I’m a portrait, fashion and lifestyle photographer living In Dnepr city. During my twenty-four year tenure here.</p>
 
@@ -51,7 +53,7 @@
 
           </div>
           <div class="header-img">
-              <img src="assets/hero.png" alt="">
+              <img data-aos="fade-left" src="assets/hero.png" alt="">
           </div>
       </div>
 
@@ -62,7 +64,7 @@
     <div class="container">
         <div class="services-row">
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down">
                 <img class="service-card-img" src="./assets/graphic_1.svg" alt="">
 
                <h3 class="service-card-title">UI/UX Design</h3>
@@ -70,7 +72,7 @@
                 <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down">
                 <img class="service-card-img" src="./assets/startup_1.svg" alt="">
 
                 <h3 class="service-card-title">Development</h3>
@@ -78,7 +80,7 @@
                 <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down">
                 <img class="service-card-img" src="./assets/browser_1.svg " alt="">
 
                 <h3 class="service-card-title">software testing</h3>
@@ -98,17 +100,17 @@
             <h2 class="title-1">Portfolio</h2>
         </div>
         
-        <div class="project ">
+        <div class="project" data-aos="flip-up">
             <img src="./assets/work.jpg" alt="" class="project-img">
             <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="flip-up">
             <img src="./assets/work2.jpg" alt="" class="project-img">
             <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="flip-up">
             <img src="./assets/work3.jpg" alt="" class="project-img">
             <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
         </div>
@@ -125,23 +127,23 @@
             <h2 class="title-1">Contacts</h2>
         </div>
 
-        <div class="contacts-content">
+        <div class="contacts-content" data-aos="fade-down">
             <p>Want to know more or just chat? <br>
                 You are welcome!</p>
         </div>
 
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-down">
             <a href="" class="btn-1">Send massage</a>
         </div>
         
-        <div class="contacts-social">
+        <div class="contacts-social" data-aos="zoom-in">
             <a href="https://www.linkedin.com/in/stas-zheynov-34489815b/"><img src="./assets/LinkedIn.svg" alt=""></a>
             <a href="https://www.upwork.com/freelancers/~01bae3153af8688e30"><img class="upwork" src="./assets/upwork.svg" alt=""></a>
             <a href="https://www.instagram.com/zheynson/?hl=ru"><img src="./assets/Instargam.svg" alt=""></a>
             <a href="https://github.com/zheynson"><img class="gitHub" src="./assets/gitHub.svg" alt=""></a>
         </div>
 
-        <div class="contact-footer">
+        <div class="contact-footer" data-aos="fade-up">
             <p>Like me on <br>
                 LinkedIn, Upwork, Instagram, GitHub</p>
         </div>
@@ -150,6 +152,9 @@
 </section>
 
 
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/script.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>

@@ -79,10 +79,13 @@ body {
 .services-row {
     display: flex;
     column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
 }
 
 .service-card {
-
+    flex: 1 1 0;
+    min-width: 315px;
 }
 
 .service-card-img {
