@@ -32,4 +32,20 @@
         right: 30px;
     }
 
+    .header-row {
+        flex-direction: column;
+    }
+
+    .header-nav {
+        padding-bottom: 0px;
+    }
+
+    .header-content {
+
+    }
+
+    .services-row {
+        flex-direction: column;
+    }
+
 }
