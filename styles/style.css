@@ -19,6 +19,10 @@ body {
     max-width: 200px;
 }
 
+.header-logo-white {
+    max-width: 100px;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -26,9 +30,30 @@ body {
     padding-bottom: 76px;
 }
 
+.header-nav-plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    height: 50px;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    right: 0;
+    transition: all 1s;
+    z-index: 10;
+    padding: 0 50px;
+}
+
+.active {
+    top: 0;
+}
+
 /*nav */
 
 .nav-list {
+    margin-bottom: 0 !important;
     display: flex;
     column-gap: 50px;
     font-family: 'Poppins', sans-serif;

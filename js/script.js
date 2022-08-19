@@ -33,3 +33,15 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+
+// HEADING-SCROLL
+var $header = $(".header-nav-plus")
+var scroll = 75;
+var active = "active"
+$(window).scroll(function() {
+    if ($(window).scrollTop() > scroll) {
+        $header.addClass(active)
+    } else {
+        $header.removeClass(active)
+    }
+})

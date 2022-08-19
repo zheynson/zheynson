@@ -58,6 +58,19 @@
 }
 
 @media (max-width: 700px) {
+
+    .nav-button {
+        /*z-index: 100;*/
+    }
+
+    .header-nav-plus {
+        height: 100px;
+    }
+
+    .header-logo-white {
+        max-width: 150px;
+    }
+
     .header-heading {
         font-size: 34px;
         line-height: 1.3;
