@@ -9,11 +9,22 @@
     <meta content='width' name='MobileOptimized'/>
     <meta content='yes' name='apple-mobile-web-app-capable'/>
 
+<!--    ICONS-->
     <link rel="shortcut icon" href="assets/title.svg" type="image/x-icon">
+
+<!--    MAIN-STYLE-->
     <link rel="stylesheet" href="styles/style.css">
+
+<!--    NULL-STYLE-->
     <link rel="stylesheet" href="styles/null.css">
+
+<!--    BOOTSTRAP-->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
+
+<!--    MEDIA-->
     <link rel="stylesheet" href="styles/media.css">
+
+<!--    ANIMATION-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -28,11 +39,11 @@
 
           <nav id="nav" class="nav">
            <ul class="nav-list">
-               <li><a class="active" href="">Home</a></li>
-               <li><a href="">Services</a></li>
-               <li><a href="">Works</a></li>
-               <li><a href="">About</a></li>
-               <li><a href="">Contacts</a></li>
+               <li><a class="nav-li active" href="">Home</a></li>
+               <li><a class="nav-li" href="">Services</a></li>
+               <li><a class="nav-li" href="#yak2">Works</a></li>
+               <li><a class="nav-li" href="">About</a></li>
+               <li class="nav-li"><a class="nav-li" href="#yak4">Contacts</a></li>
            </ul>
 
               <button id="nav-btn" class="nav-button">
@@ -96,8 +107,19 @@
 <section class="portfolio">
     <div class="container">
 
-        <div class="portfolio-title">
+        <div id="yak2" class="portfolio-title">
             <h2 class="title-1">Portfolio</h2>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+            <a href="http://reforma.dp.ua/"><img src="./assets/work4.jpg" alt="" class="project-img"></a>
+            <h3 class="project-title"><a href="http://reforma.dp.ua/">Barber-shop - "Reforma". Fully adaptive website.
+                <br> Commercial project </a></h3>
+        </div>
+
+        <div class="project" data-aos="flip-up">
+            <a href="https://zheynson.github.io/Alivio/"> <img src="./assets/work5.jpg" alt="" class="project-img"> </a>
+            <h3 class="project-title"><a href="https://zheynson.github.io/Alivio/">Online fashion store - "Alivio". <br> Conceptual website.</a></h3>
         </div>
         
         <div class="project" data-aos="flip-up">
@@ -144,7 +166,7 @@
         </div>
 
         <div class="contact-footer" data-aos="fade-up">
-            <p>Like me on <br>
+            <p id="yak4">Like me on <br>
                 LinkedIn, Upwork, Instagram, GitHub</p>
         </div>
 
@@ -152,10 +174,16 @@
 </section>
 
 
+<!--JQUERY-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
-
+<!--ANIMATION-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--MAIN JS-->
 <script src="js/script.js"></script>
+
+<!--BOOTSTRAP-->
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
