@@ -2,12 +2,22 @@ const nav = document.querySelector('#nav');
 const navBtn = document.querySelector('#nav-btn');
 const navBtnImg = document.querySelector('#nav-btn-img');
 
+const navCloseFirst = document.querySelector('.close_window')
 const navClose = document.querySelector('.close_window_1');
 const navCloseTwo = document.querySelector('.close_window_2');
 const navCloseThree = document.querySelector('.close_window_3');
 const navBtnPlus = document.querySelector('.nav-button-plus');
 
 const headerNavPlus = document.querySelector('.header-nav-plus');
+
+navCloseFirst.onclick = () => {
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = './assets/nav-close.svg';
+        headerNavPlus.classList.add('nav-list')
+    }else {
+        navBtnImg.src = './assets/nav.svg';
+    }
+}
 
 navBtnPlus.onclick = () => {
     if (nav.classList.toggle('open')) {
