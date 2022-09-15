@@ -1,9 +1,28 @@
 const nav = document.querySelector('#nav');
 const navBtn = document.querySelector('#nav-btn');
 const navBtnImg = document.querySelector('#nav-btn-img');
-const nav_li = document.getElementsByClassName('nav-li')
 
-nav_li.onclick = () => {
+const navClose = document.querySelector('.close_window_1');
+const navCloseTwo = document.querySelector('.close_window_2');
+const navCloseThree = document.querySelector('.close_window_3');
+
+navCloseTwo.onclick = () => {
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = './assets/nav-close.svg';
+    }else {
+        navBtnImg.src = './assets/nav.svg';
+    }
+}
+
+navCloseThree.onclick = () => {
+    if (nav.classList.toggle('open')) {
+        navBtnImg.src = './assets/nav-close.svg';
+    }else {
+        navBtnImg.src = './assets/nav.svg';
+    }
+}
+
+navClose.onclick = () => {
     if (nav.classList.toggle('open')) {
         navBtnImg.src = './assets/nav-close.svg';
     }else {
@@ -44,4 +63,5 @@ $(window).scroll(function() {
     } else {
         $header.removeClass(active)
     }
-})
+});
+

@@ -1,5 +1,9 @@
 @media (max-width: 1230px) {
 
+    .header-nav-plus {
+        display: none;
+    }
+
     .nav-list {
         display: none;
     }
@@ -62,7 +66,6 @@
     .nav-button {
         /*z-index: 100;*/
     }
-
     .header-nav-plus {
         height: 100px;
     }
