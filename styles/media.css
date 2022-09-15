@@ -1,7 +1,7 @@
 @media (max-width: 1230px) {
 
     .header-nav-plus {
-        display: none;
+        /*display: none;*/
     }
 
     .nav-list {
@@ -33,7 +33,7 @@
     .nav-button {
         position: absolute;
         z-index: 9;
-        top: 46px;
+        top: 50px;
         right: 30px;
     }
 
@@ -67,7 +67,7 @@
         /*z-index: 100;*/
     }
     .header-nav-plus {
-        height: 100px;
+        height: 60px;
     }
 
     .header-logo-white {
