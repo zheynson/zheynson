@@ -232,6 +232,10 @@ body {
     max-width: 45px;
 }
 
+.contacts-social a .telegram {
+    max-width: 45px;
+}
+
 .contacts-social a .upwork {
     width: 40px;
 }
