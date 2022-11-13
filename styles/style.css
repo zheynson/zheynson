@@ -152,6 +152,11 @@ body {
 
 .project-img {
     margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.project-img:hover {
+    outline: 2px solid rgb(228, 220, 220);
 }
 
 .project-title {
