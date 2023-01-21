@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .title-1 {
@@ -248,6 +249,28 @@ body {
 .contact-footer {
     color: #828282;
 }
+
+/*PRELOADER*/
+.loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*background-color: #FEDD58;*/
+    background-color: #FFDE59;
+    overflow: hidden;
+    z-index: 10;
+}
+.loading img {
+    width: 80% !important;
+}
+.all{
+    opacity:0;
+}
+
+
 
 
 

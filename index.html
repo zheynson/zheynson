@@ -3,211 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <title>zheynson</title>
-
     <meta name='viewport' content='width=device-width,initial-scale=1'/>
     <meta content='true' name='HandheldFriendly'/>
     <meta content='width' name='MobileOptimized'/>
     <meta content='yes' name='apple-mobile-web-app-capable'/>
-
 <!--    ICONS-->
     <link rel="shortcut icon" href="assets/title.svg" type="image/x-icon">
-
 <!--    MAIN-STYLE-->
     <link rel="stylesheet" href="styles/style.css">
-
 <!--    NULL-STYLE-->
     <link rel="stylesheet" href="styles/null.css">
-
 <!--    BOOTSTRAP-->
     <link rel="stylesheet" href="styles/bootstrap.min.css">
-
 <!--    MEDIA-->
     <link rel="stylesheet" href="styles/media.css">
-
 <!--    ANIMATION-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body data-scroll-container>
+<div class="loading">
+    <img src="assets/logo/logo.svg" alt="">
+</div>
+<div class="header-nav-plus">
 
-<header class="header">
-    <div class="container">
-      <div class="header-nav">
+    <a href="" class="logo">
+        <img class="header-logo-white" src="assets/logo-white-bg.gif" alt="">
+    </a>
 
-          <a href="" class="logo">
-              <img class="header-logo" src="assets/logo/460Gif.gif" alt="">
-          </a>
+    <nav id="nav" class="nav">
+        <ul class="nav-list close_window">
+            <li><a class="nav-li" href="#">Home</a></li>
+            <li><a class="nav-li" href="#yak2">Works</a></li>
+            <li class="nav-li"><a class="nav-li" href="#yak4">Contacts</a></li>
+        </ul>
 
-          <nav id="nav" class="nav">
-           <ul class="nav-list">
-               <li><a class="nav-li close_window_1" href="#yak2">Works</a></li>
-               <li><a class="nav-li close_window_2" href="#yak4">About</a></li>
-               <li class="nav-li close_window_3"><a class="nav-li" href="#yak4">Contacts</a></li>
-           </ul>
+        <button id="nav-btn" class="nav-button-plus">
+            <img id="nav-btn-img" src="assets/nav.svg" alt="">
+        </button>
 
-              <button id="nav-btn" class="nav-button">
-                  <img id="nav-btn-img" src="assets/nav.svg" alt="">
-              </button>
+    </nav>
+</div>
 
-          </nav>
-      </div>
+<div class="all">
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
 
-        <div class="header-nav-plus">
+                <a href="" class="logo">
+                    <img class="header-logo" src="assets/logo/460Gif.gif" alt="">
+                </a>
 
-            <a href="" class="logo">
-                <img class="header-logo-white" src="assets/logo-white-bg.gif" alt="">
-            </a>
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li><a class="nav-li close_window_1" href="#yak2">Works</a></li>
+                        <li><a class="nav-li close_window_2" href="#yak4">About</a></li>
+                        <li class="nav-li close_window_3"><a class="nav-li" href="#yak4">Contacts</a></li>
+                    </ul>
 
-            <nav id="nav" class="nav">
-                <ul class="nav-list">
-                    <li><a class="nav-li" href="#">Home</a></li>
-                    <li><a class="nav-li" href="#yak2">Works</a></li>
-                    <li><a class="nav-li" href="#yak4">About</a></li>
-                    <li class="nav-li close_window"><a class="nav-li" href="#yak4">Contacts</a></li>
-                </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="assets/nav.svg" alt="">
+                    </button>
 
-                <button id="nav-btn" class="nav-button-plus">
-                    <img id="nav-btn-img" src="assets/nav.svg" alt="">
-                </button>
-
-            </nav>
-        </div>
-
-      <div class="header-row">
-          <div data-aos="fade-up" class="header-content">
-
-              <div class="header-heading">Zheynov Stas<br><span>Front-end developer</span></div>
-
-              <p>I’m a portrait, fashion and lifestyle photographer living In Dnepr city. During my twenty-four year tenure here.</p>
-
-
-
-          </div>
-          <div class="header-img">
-              <img data-aos="fade-left" src="assets/hero.png" alt="">
-          </div>
-      </div>
-
-    </div>
-</header>
-
-<section class="services">
-    <div class="container">
-        <div class="services-row">
-
-            <div class="service-card" data-aos="fade-down">
-                <img class="service-card-img" src="./assets/graphic_1.svg" alt="">
-
-               <h3 class="service-card-title">UI/UX Design</h3>
-
-                <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-            </div>
-
-            <div class="service-card" data-aos="fade-down">
-                <img class="service-card-img" src="./assets/startup_1.svg" alt="">
-
-                <h3 class="service-card-title">Development</h3>
-
-                <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
-            </div>
-
-            <div class="service-card" data-aos="fade-down">
-                <img class="service-card-img" src="./assets/browser_1.svg " alt="">
-
-                <h3 class="service-card-title">software testing</h3>
-
-                <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </nav>
             </div>
 
 
+
+            <div class="header-row">
+                <div data-aos="fade-up" class="header-content">
+
+                    <div class="header-heading">Zheynov Stas<br><span>Front-end developer</span></div>
+
+                    <p>I’m a portrait, fashion and lifestyle photographer living In Dnepr city. During my twenty-four year tenure here.</p>
+
+
+
+                </div>
+                <div class="header-img">
+                    <img data-aos="fade-left" src="assets/hero.png" alt="">
+                </div>
+            </div>
+
         </div>
-    </div>
-</section>
+    </header>
+    <section class="services">
+        <div class="container">
+            <div class="services-row">
 
-<section class="portfolio">
-    <div class="container">
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./assets/graphic_1.svg" alt="">
 
-        <div id="yak2" class="portfolio-title">
-            <h2 class="title-1">Portfolio</h2>
+                    <h3 class="service-card-title">UI/UX Design</h3>
+
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./assets/startup_1.svg" alt="">
+
+                    <h3 class="service-card-title">Development</h3>
+
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class="service-card-img" src="./assets/browser_1.svg " alt="">
+
+                    <h3 class="service-card-title">software testing</h3>
+
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+
+
+            </div>
         </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
 
-        <div class="project" data-aos="flip-up">
-            <a target="_blank" href="http://reforma.dp.ua/"><img src="./assets/work4.jpg" alt="" class="project-img"></a>
-            <h3 class="project-title"><a href="http://reforma.dp.ua/">Barber-shop - "Reforma". Fully adaptive website.
-                <br> Commercial project </a></h3>
+            <div id="yak2" class="portfolio-title">
+                <h2 class="title-1">Portfolio</h2>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <a target="_blank" href="http://reforma.dp.ua/"><img src="./assets/work4.jpg" alt="" class="project-img"></a>
+                <h3 class="project-title"><a href="http://reforma.dp.ua/">Barber-shop - "Reforma". Fully adaptive website.
+                    <br> Commercial project </a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <a target="_blank" href="https://zheynson.github.io/Alivio/"> <img src="./assets/work5.jpg" alt="" class="project-img"> </a>
+                <h3 class="project-title"><a href="https://zheynson.github.io/Alivio/">Online fashion store - "Alivio". <br> Conceptual website.</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <a target="_blank" href="https://taxiheli.vip/"><img src="./assets/work-heli.jpg" alt="" class="project-img"></a>
+                <h3 class="project-title"><a href="https://taxiheli.vip/">"Taxi-heli". SPA on Angular, with back-end on NodeJS.
+                    <br> Commercial project </a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./assets/work2.jpg" alt="" class="project-img">
+                <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
+            </div>
+
+            <div class="project" data-aos="flip-up">
+                <img src="./assets/work3.jpg" alt="" class="project-img">
+                <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
+            </div>
+
+
+
         </div>
+    </section>
+    <section class="contacts">
 
-        <div class="project" data-aos="flip-up">
-            <a target="_blank" href="https://zheynson.github.io/Alivio/"> <img src="./assets/work5.jpg" alt="" class="project-img"> </a>
-            <h3 class="project-title"><a href="https://zheynson.github.io/Alivio/">Online fashion store - "Alivio". <br> Conceptual website.</a></h3>
+        <div class="container">
+            <div class="contacts-title">
+                <h2 class="title-1">Contacts</h2>
+            </div>
+
+            <div class="contacts-content" data-aos="fade-down">
+                <p>Want to know more or just chat? <br>
+                    You are welcome!</p>
+            </div>
+
+            <div class="contacts-button" data-aos="fade-down">
+                <a target="_blank" href="https://cv.djinni.co/b9/ff5547c81d183ec9c9d22bd52a833d/front-end_Stas_Zheynov.pdf" class="btn-1">Download CV</a>
+            </div>
+
+            <div class="contacts-social" data-aos="zoom-in">
+                <a href="https://www.linkedin.com/in/stas-zheynov-34489815b/"><img src="./assets/LinkedIn.svg" alt=""></a>
+                <a href="https://www.upwork.com/freelancers/~01bae3153af8688e30"><img class="upwork" src="./assets/upwork.svg" alt=""></a>
+                <a href="tg://resolve?domain=zheynson"><img class="telegram" src="./assets/telegram.svg" alt=""></a>
+                <a href="https://github.com/zheynson"><img class="gitHub" src="./assets/gitHub.svg" alt=""></a>
+            </div>
+
+            <div class="contact-footer" data-aos="fade-up">
+                <p id="yak4">Like me on <br>
+                    LinkedIn, Upwork, GitHub</p>
+            </div>
+
         </div>
-
-        <div class="project" data-aos="flip-up">
-            <a target="_blank" href="https://taxiheli.vip/"><img src="./assets/work-heli.jpg" alt="" class="project-img"></a>
-            <h3 class="project-title"><a href="https://taxiheli.vip/">"Taxi-heli". SPA on Angular, with back-end on NodeJS.
-                <br> Commercial project </a></h3>
-        </div>
-
-        <div class="project" data-aos="flip-up">
-            <img src="./assets/work2.jpg" alt="" class="project-img">
-            <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
-        </div>
-
-        <div class="project" data-aos="flip-up">
-            <img src="./assets/work3.jpg" alt="" class="project-img">
-            <h3 class="project-title"><a href="">Online fashion store - Homepage</a></h3>
-        </div>
-
-
-        
-    </div>
-</section>
-
-<section class="contacts">
-
-    <div class="container">
-        <div class="contacts-title">
-            <h2 class="title-1">Contacts</h2>
-        </div>
-
-        <div class="contacts-content" data-aos="fade-down">
-            <p>Want to know more or just chat? <br>
-                You are welcome!</p>
-        </div>
-
-        <div class="contacts-button" data-aos="fade-down">
-            <a target="_blank" href="https://cv.djinni.co/fa/9f7f65b93e59838f97c3b3343aaccf/Zheynov_Stas.pdf" class="btn-1">Download CV</a>
-        </div>
-        
-        <div class="contacts-social" data-aos="zoom-in">
-            <a href="https://www.linkedin.com/in/stas-zheynov-34489815b/"><img src="./assets/LinkedIn.svg" alt=""></a>
-            <a href="https://www.upwork.com/freelancers/~01bae3153af8688e30"><img class="upwork" src="./assets/upwork.svg" alt=""></a>
-            <a href="tg://resolve?domain=zheynson"><img class="telegram" src="./assets/telegram.svg" alt=""></a>
-            <a href="https://github.com/zheynson"><img class="gitHub" src="./assets/gitHub.svg" alt=""></a>
-        </div>
-
-        <div class="contact-footer" data-aos="fade-up">
-            <p id="yak4">Like me on <br>
-                LinkedIn, Upwork, GitHub</p>
-        </div>
-
-    </div>
-</section>
-
+    </section>
+</div>
 <!--HEADER-SCROLL-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 <!--JQUERY-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
 <!--ANIMATION-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<!--PRELOADER-->
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<!--BOOSTRAP-->
+<script src="js/bootstrap.min.js"></script>
 <!--MAIN JS-->
 <script src="js/script.js"></script>
-
-<!--BOOTSTRAP-->
-<script src="js/bootstrap.min.js"></script>
-
-
 </body>
 </html>
